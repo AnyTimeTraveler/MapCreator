@@ -22,7 +22,7 @@ public class Map extends JPanel implements MouseMotionListener, MouseWheelListen
     private int translationY = 0;
     private int dragStartX = 0;
     private int dragStartY = 0;
-    private double zoom = 0.1;
+    private double zoom = 0.5;
     private int frames = 0;
     private int currentFrames = 0;
     private long renderTime = 0;

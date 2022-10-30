@@ -32,7 +32,7 @@ public class Main {
         // Init Panels
         JPanel mainPanel = new JPanel(new BorderLayout());
         JPanel bottomPanel = new JPanel(new BorderLayout());
-        Map map = new Map("res/empty_map.png");
+        Map map = new Map("res/no_map_loaded.png");
         JLabel fps = new JLabel("FPS: 0 Frame Time: 0 ms");
         Timer timerFPS = new Timer(200, e -> fps.setText("FPS: " + map.getFPS() + " Frame Time: " + map.getFrameTime() / 1_000_000.0 + "ms"));
         timerFPS.start();
